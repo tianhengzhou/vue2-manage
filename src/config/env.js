@@ -11,8 +11,8 @@ let routerMode = 'hash';
 let baseImgPath;
 
 if (process.env.NODE_ENV == 'development') {
-	baseUrl = '';
-    baseImgPath = '/img/';
+	baseUrl = '//54.153.51.238:8001';
+    baseImgPath = '//54.153.51.238:8001/img/';
 }else if (process.env.NODE_ENV == 'local') {
     baseUrl = '//localhost:8001';
     baseImgPath = '//localhost:8001/img/';
